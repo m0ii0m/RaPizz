@@ -4,8 +4,8 @@ INSERT INTO taille VALUES
 
 -- Ingrédients
 INSERT INTO ingredient (libelle) VALUES
- ('Tomate'),('Mozzarella'),('Jambon'),('Champignons'),('Olives'),
- ('Anchois'),('Poivrons'),('Chorizo');
+ ('Tomate'),('Saumons'),('Jambon'),('Champignons'),('Olives'),
+ ('Anchois'),('Poivrons'),('Merguez'),('Chorizo');
 
 -- Pizzas
 INSERT INTO pizza (nom,prix_base) VALUES
@@ -24,11 +24,11 @@ INSERT INTO pizza_ingredient VALUES
 
 -- Clients
 INSERT INTO client (nom,prenom,adresse,email,solde) VALUES
- ('Durand','Alice','1 rue des Lilas','alice@example.com',50),
- ('Martin','Bob','2 av. de Paris','bob@example.com',30);
+ ('Regnier','Richard','1 rue des Lilas','richard@example.com',50),
+ ('Ho','Ludovic','2 av. de Paris','ludovic@example.com',30);
 
 -- Livreurs & véhicules
 INSERT INTO livreur (nom,prenom) VALUES ('Lemoine','Céline'),('Perez','Diego');
 INSERT INTO vehicule (immatriculation,type,modele) VALUES
- ('AB-123-CD','MOTO','Yamaha 125'),
- ('EF-456-GH','AUTO','Fiat Panda');
+ ('AB-123-CD','MOTO','Kawazaki 125'),
+ ('EF-456-GH','AUTO','Toyota Yaris');
