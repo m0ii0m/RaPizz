@@ -1,0 +1,36 @@
+# --- IDE ----------------------------------------------------------------
+.idea/
+*.iml
+*.ipr
+*.iws
+# VS Code
+.vscode/
+
+# --- Maven  -------------------------------------------------------------
+target/
+
+# --- Logs & Reste -------------------------------------------------------
+*.log
+hs_err_pid*.log
+
+# --- Systèmes d’exploitation --------------------------------------------
+# Windows
+Thumbs.db
+Desktop.ini
+# macOS
+.DS_Store
+# Linux
+*~
+
+# --- Java ---------------------------------------------------------------
+*.class
+# Fichiers de débogage
+*.hprof
+
+# --- Configuration utilisateur ------------------------------------------
+src/main/resources/application.properties
+*.env
+
+# --- PostgreSQL dumps éventuels -----------------------------------------
+*.sql
+*.dump
