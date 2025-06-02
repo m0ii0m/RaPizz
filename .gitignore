@@ -1,36 +1,46 @@
-# --- IDE ----------------------------------------------------------------
+# ------------------------
+# Fichiers et dossiers générés
+# ------------------------
+/target/
+/logs/
+*.log
+*.class
+*.jar
+
+# ------------------------
+# IntelliJ IDEA
+# ------------------------
 .idea/
 *.iml
-*.ipr
-*.iws
+
+# ------------------------
 # VS Code
+# ------------------------
 .vscode/
+*.code-workspace
 
-# --- Maven  -------------------------------------------------------------
-target/
+# ------------------------
+# Eclipse
+# ------------------------
+.project
+.classpath
+.settings/
 
-# --- Logs & Reste -------------------------------------------------------
-*.log
-hs_err_pid*.log
-
-# --- Systèmes d’exploitation --------------------------------------------
-# Windows
-Thumbs.db
-Desktop.ini
-# macOS
+# ------------------------
+# Fichiers système
+# ------------------------
 .DS_Store
-# Linux
-*~
+Thumbs.db
 
-# --- Java ---------------------------------------------------------------
-*.class
-# Fichiers de débogage
-*.hprof
+# ------------------------
+# Environnement Java
+# ------------------------
+bin/
+*.war
+*.ear
 
-# --- Configuration utilisateur ------------------------------------------
-src/main/resources/application.properties
-*.env
-
-# --- PostgreSQL dumps éventuels -----------------------------------------
-#*.sql
-*.dump
+# ------------------------
+# Propriétés sensibles
+# ------------------------
+.env
+src/main/resources/db.properties
